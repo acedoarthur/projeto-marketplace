@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.hero-section {
+  height: 100vh;
+  background-image: url(fundo2.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hero-section .content {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  color: #fff;
+}
+
+.hero-section .content h2 {
+  font-size: 40px;
+  max-width: 600px;
+  line-height: 70px;
+  color: #48b889;
+}
+
+.hero-section .content p {
+  font-weight: 300px;
+  max-width: 600px;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.hero-section .content button {
+  background: #48b889;
+  padding: 12px 30px;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-top: 38px;
+  font-weight: 500;
+}
+
+.hero-section .content button:hover {
+  color: white;
+  background: #48b889;
+}
+
+.center img{
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  margin: 0%;
+  border: 5px solid #48b889;
+  position: initial;
+}
+
+.titulo-centralizado {
+	color: #48b889;
+	font-size: 20px;
+	margin-bottom: 20px;
+  }
+
+a:link {
+  text-decoration: none;
+}
